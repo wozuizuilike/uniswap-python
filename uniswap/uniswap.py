@@ -118,7 +118,7 @@ def _validate_address(a: AddressLike) -> None:
     assert _addr_to_str(a)
 
 
-_netid_to_name = {1: "mainnet", 3: "ropsten", 4: "rinkeby"}
+_netid_to_name = {1: "mainnet", 3: "ropsten", 4: "rinkeby", 56:"bsc"}
 
 
 class Uniswap:
